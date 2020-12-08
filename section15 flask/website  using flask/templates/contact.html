@@ -1,0 +1,44 @@
+{%extends "layout.html"%}
+{%block content%}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+
+
+        <body>
+        
+        <h3>Contact Us</h3>
+        
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="Courses">Courses</label>
+            <select id="Courses" name="Courses">
+              <option value="Data analyst">Data analyst</option>
+              <option value="fsd">full stack developer</option>
+             
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+        </body>
+</html>
+{%endblock%}
