@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<title>Salary estimator</title> 
+	<meta name="author" content="ajmalbinnizam">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/images/logo1.svg" type="image/x-icon">
+	<link rel="stylesheet" href="../static/css/style.css" /> 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+</head> 
+
+<body> 
+
+	<div id="particles-js"> 
+		
+		<div class="heading"> 
+			<h1>Wondering about your salary in IT sector</h1> 
+			<h2> 
+				Enter your domain skill level out of 10
+			</h2> 
+			<form action="{{url_for('predict')}}", method="post">
+			<input id="in" type="number" name="experience" placeholder="just roll a number"><br><br>
+			<input type="submit" value="Submit">
+		</form>
+		</div> 
+
+	</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <script type="text/javascript" src="js/particles.min.js"> 
+	</script> -->
+	<script src= "../static/js/particles.js"></script> 
+</script> 
+<script type="text/javascript" src="../static/js/app.js"> 
+</script> 
+</body> 
+
+</html> 
