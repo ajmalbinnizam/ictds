@@ -1,0 +1,11 @@
+html {
+  font-family: Arial;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+div#cool{
+  font-style: italic;
+}
