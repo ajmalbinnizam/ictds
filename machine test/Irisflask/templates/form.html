@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}The Form{% endblock %}
+
+{% block content %}
+{{ super() }}
+<h1>Enter the feature values</h1>
+
+
+
+<form form method="POST" action="/theform">
+   <label for="SN">Serial Number:</label><br>
+  <input type="float" name="SN"><br>
+    <label for="SL">Sepal Length:</label><br>
+  <input type="float" name="SL"><br>
+    <label for="SW">Sepal Width:</label><br>
+  <input type="float" name="SW"><br>
+    <label for="PL">Petal Length:</label><br>
+  <input type="float" name="PL"><br>
+    <label for="PW">Petal Width:</label><br>
+  <input type="float" name="PW"><br>
+    <input type="submit" value="Submit">
+
+</form>
+{% endblock %}
